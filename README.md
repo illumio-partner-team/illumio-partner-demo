@@ -3,7 +3,7 @@
 ## Requirements
 - **Terraform**: [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 - **AWS CLI**: [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- **Azure CLI**
+- **Azure CLI**: [Install Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)
 - **AWS and Azure Credentials**
 - *(Optional)* **Git for Windows**: [Download Git for Windows](https://gitforwindows.org/) - Provides a BASH emulation used to run Git from the command line. *NIX users will find the BASH emulation similar to the native `git` command in Linux/Unix environments.
 
