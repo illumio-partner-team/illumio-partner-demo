@@ -82,11 +82,24 @@ Provide the following details:
 
 ---
 
+## Cleaning Up AWS & Azure Environments
+If you lose your Terraform `tfstate` file, you must manually clean up AWS and Azure environments to avoid unnecessary cloud costs. Additionally, check for duplicate resources if errors occur.
+
+### Cleaning Up AWS
+- This is a **manual process**.
+- Delete **VPC1** and **VPC2**, along with all their dependencies.
+
+### Cleaning Up Azure
+- Navigate to the **testdrive Resource Group** in Azure.
+- Delete **all items** within the testdrive Resource Group.
+- Afterward, delete the **Resource Group** itself.
+
+---
+
 ## Notes
 - Ensure your AWS and Azure credentials are properly configured before running Terraform.
 - Always review the Terraform plan output before applying changes.
 - Use caution when modifying or destroying cloud resources.
-- Be sure to manually clean up AWS and Azure environments if you lose your terraform tfstate file. Also, check for any duplicates created if you encounter errors to keep your Cloud Costs down.
 
 ---
 
