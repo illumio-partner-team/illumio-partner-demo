@@ -70,7 +70,7 @@ Provide the following details:
 
 #### Configure Illumio Console
 1. Log in to your [Illumio Console](https://console.illum.io/#/login).
-2. Select **My API Keys** under your logged-in username menu (top left).
+2. Select [**My API Keys**](https://console.illum.io/#/apikeys) under your logged-in username menu (top left).
 3. Enter the following details:
    - **Management Server (FQDN:Port format)**: This should be the address listed on your PCE API Endpoint (e.g., `poc3.illum.io:443`).
    - **Email or API User**: Add/Create an API Key in your PCE console under **My API Keys**.
