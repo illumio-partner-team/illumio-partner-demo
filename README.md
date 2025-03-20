@@ -41,7 +41,7 @@ You need to manually **empty and delete** the existing S3 bucket in your AWS acc
 
 ## Deploying Azure Resources
 ### Steps to Run Terraform in Azure Folder:
-1. Navigate to the `AWS/` folder.
+1. Navigate to the `Azure/` folder.
 2. Run the following Terraform commands:
    ```sh
    terraform init
