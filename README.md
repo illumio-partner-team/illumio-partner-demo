@@ -51,6 +51,36 @@ You need to manually **empty and delete** the existing S3 bucket in your AWS acc
 
 ---
 
+## CORE Data Center Onboarding
+### For Illumio INTERNAL SEs ONLY
+
+#### Access the VAAS Instance
+Via VPN, navigate to your chosen VAAS instance:
+- [VAAS Instance 1](https://vaas-sedemos2.poc.segmentationpov.com/)
+- [VAAS Instance 2](https://vaas.poc.segmentationpov.com/)
+
+#### Create a New Instance
+Provide the following details:
+- **Instance Name**
+- **Owner First Name**
+- **Owner Last Name**
+- **Email Address**
+- **Password to Delete**
+- **Confirm Password to Delete**
+
+#### Configure Illumio Console
+1. Log in to your Illumio Console.
+2. Select **My API Keys** under your logged-in username menu (top left).
+3. Enter the following details:
+   - **Management Server (FQDN:Port format)**: This should be the address listed on your PCE API Endpoint (e.g., `poc3.illum.io:443`).
+   - **Email or API User**: Add/Create an API Key in your PCE console under **My API Keys**.
+   - **Password or API Key**: Use the API Key password generated from your PCE console.
+   - **Confirm Password or API Key**.
+   - **Org ID**: Use the Org ID on the API.
+4. Click **Submit** and let Vensim complete the process.
+
+---
+
 ## Notes
 - Ensure your AWS and Azure credentials are properly configured before running Terraform.
 - Always review the Terraform plan output before applying changes.
