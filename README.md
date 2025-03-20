@@ -69,7 +69,7 @@ Provide the following details:
 - **Password to Delete**
 - **Confirm Password to Delete**
 
-#### Configure Illumio Console
+#### Login to Illumio Console for the remaining details
 1. Log in to your [Illumio Console](https://console.illum.io/#/login).
 2. Select [My API Keys](https://console.illum.io/#/apikeys) under your logged-in username menu (top left).
 3. Enter the following details:
