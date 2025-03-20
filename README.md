@@ -36,7 +36,7 @@ Error: creating S3 Bucket (us-east-1-730335348333): BucketAlreadyExists
 │    1: resource "aws_s3_bucket" "s3bucket" {
 ```
 You need to manually **empty and delete** the existing S3 bucket in your AWS account before re-running `terraform apply`.
-
+After terraform completion, you should have 13 EC2 instances created with 2 VPCs and all its related networking resources.
 ---
 
 ## Deploying Azure Resources
