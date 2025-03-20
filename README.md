@@ -69,7 +69,7 @@ Provide the following details:
 - **Confirm Password to Delete**
 
 #### Configure Illumio Console
-1. Log in to your Illumio Console.
+1. Log in to your [Illumio Console](https://console.illum.io/#/login).
 2. Select **My API Keys** under your logged-in username menu (top left).
 3. Enter the following details:
    - **Management Server (FQDN:Port format)**: This should be the address listed on your PCE API Endpoint (e.g., `poc3.illum.io:443`).
