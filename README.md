@@ -130,7 +130,7 @@ To verify the credentials are working, run the following in your terminal:
 
 ```bash
 aws iam get-user
-
+```
 ---
 
 ## License
