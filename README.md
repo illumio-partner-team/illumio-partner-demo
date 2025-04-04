@@ -103,13 +103,9 @@ If you lose your Terraform `tfstate` file, you must manually clean up AWS and Az
 
 
 # 🔐 Authenticating Terraform to AWS using API Keys
-
 To authenticate Terraform to AWS using an **Access Key** and **Secret Key**, follow these steps to create an IAM user with the appropriate permissions.
 
----
-
 ## 1. ✅ Create an AWS IAM User for Terraform
-
 1. Sign in to the [AWS Console](https://console.aws.amazon.com/iam/).
 2. Navigate to **"Users"** under **Access Management**.
 3. Click **"Add users"**.
@@ -119,27 +115,17 @@ To authenticate Terraform to AWS using an **Access Key** and **Secret Key**, fol
    - ✅ Choose **AdministratorAccess**
 6. Click **Next: Tags**, then **Next: Review**, and finally **Create user**.
 
----
-
 ## 2. 🔑 Create Access Key
-
 After creating the user:
-
 - Go to the **Security credentials** tab for the new user.
 - Click **Create access key**.
 
----
-
 ## 3. 💾 Save the Access Key
-
 - **Copy the Access Key ID and Secret Access Key** immediately.
 - You **will not be able to see the secret again**.
 - Optionally, download the credentials as a `.csv` file for safekeeping.
 
----
-
 ## ✅ Test Your Setup
-
 To verify the credentials are working, run the following in your terminal:
 
 ```bash
